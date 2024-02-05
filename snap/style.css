@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 14200px) {
+    .nav {
+        display: flex;
+        flex-direction: column;
+        background-color: yellow;
+        height: 10%;
+    }
+
+    .nav img {
+        max-width: 100%;
+        max-height: 100%;
+        width: 300px;
+        height: auto;
+        padding: 2rem;
+        align-self: flex-end;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 70px;
+        padding: 6rem 0;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+    }
+
+    .g-login {
+        display: grid;
+        justify-content: center;
+    }
+
+    .loginGoogle {
+        background-color: #000;
+        color: yellow;
+        border: none;
+        border-radius: 80px;
+        font-size: 50px;
+        padding: 3rem 8rem;
+    }
+
+    .g-login a {
+        text-decoration-line: none;
+        padding: 4rem 0;
+        text-align: center;
+        font-size: 35px;
+        color: #000;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+    }
+
+    .g-login p {
+        text-align: center;
+        font-size: 55px;
+        color: #a0a0a0;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+    }
+
+    form {
+        display: grid;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+
+    form input {
+        width: 800px;
+        padding: 2rem;
+        font-size: 35px;
+        margin: 1.5rem 0;
+        border: none;
+        border-bottom: 2px #000 solid;
+        outline: none;
+    }
+
+    form a {
+        text-decoration: none;
+        font-size: 40px;
+        text-align: end;
+        padding: 1rem 0;
+        color: blue;
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+    }
+
+    input[type="submit"] {
+        width: 700px;
+        border: none;
+        border-radius: 80px;
+        font-size: 55px;
+        padding: 2rem 8rem;
+        justify-self: center;
+        margin: 7rem 0;
+        background-color: rgb(165, 165, 165);
+        color: #fff;
+    }
+
+    input[type="password"]:focus + input[type="submit"] {
+        background-color: yellow;
+        color: #fff;
+    }
+
+    input[type="submit"]:hover {
+        background-color: yellow;
+        color: #000;
+    }
+
+    .signup-div {
+        display: flex;
+        font-size: 35px;
+        font-family: "Roboto", sans-serif;
+        justify-content: center;
+    }
+
+    .signup-div a {
+        text-decoration-line: none;
+        padding-right: 0.5rem;
+        color: #000;
+        font-weight: 600;
+    }
+
+    .signup-div p {
+        color: rgb(87, 87, 87);
+    }
+}
